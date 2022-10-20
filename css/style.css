@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-block {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.58);
+}
+
+.block-gen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+
+}
+
+.block-gen p{
+    width: 50%;
+    color: white;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.block-btn {
+    padding: 10px 20px;
+    background: #000;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
